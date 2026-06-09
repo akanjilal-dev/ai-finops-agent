@@ -1,0 +1,7 @@
+# Core agent + analytics run with NO dependencies (stdlib only): the agent's
+# routing is deterministic, so it needs no model and no API key.
+pytest>=8.0
+# Optional: swap the deterministic router for an LLM for fuzzier phrasing.
+# Install only if you wire one up (see finops/agent.py and the README).
+# anthropic>=0.40
+# openai>=1.30
